@@ -41,6 +41,6 @@ public abstract class House {
         return southWall.getPrice() + westWall.getPrice() + northWall.getPrice() + eastWall.getPrice();
     }
 
-    protected abstract Wall createWall();
+    protected abstract Wall createWall(); //Factory method
 
 }
