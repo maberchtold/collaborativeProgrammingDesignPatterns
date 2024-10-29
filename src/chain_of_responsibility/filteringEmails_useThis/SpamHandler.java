@@ -1,4 +1,4 @@
-package chain_of_responsibility.filteringEmails;
+package chain_of_responsibility.filteringEmails_useThis;
 
 public class SpamHandler extends Handler{
 

@@ -1,4 +1,4 @@
-package memento.savingVideoGame;
+package memento.savingVideoGame_useThis;
 
 public class Player {
     private int x;

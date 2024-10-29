@@ -1,11 +1,11 @@
-package chain_of_responsibility.filteringEmails;
+package chain_of_responsibility.filteringEmails_useThis;
 
-public class NewLocHandler extends Handler {
+public class FanHandler extends Handler{
 
     @Override
     public void handleRequest(String request) {
-        if (request.equals(NEW_LOC_MAIL)){
-            System.out.println("New Loc mail handler");
+        if (request.equals(FAN_MAIL)){
+            System.out.println("Fan mail handler");
         }else if (successor != null){
             successor.handleRequest(request);
         }else {
