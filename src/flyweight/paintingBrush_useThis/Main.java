@@ -1,4 +1,4 @@
-package flyweight.paintingBrush;
+package flyweight.paintingBrush_useThis;
 
 public class Main {
     public static void main(String[] args) {

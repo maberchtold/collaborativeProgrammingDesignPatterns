@@ -1,4 +1,4 @@
-package flyweight.paintingBrush;
+package flyweight.paintingBrush_useThis;
 
 public class Pencil implements Tool{
     @Override

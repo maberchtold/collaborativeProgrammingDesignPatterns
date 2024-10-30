@@ -1,4 +1,4 @@
-package flyweight.paintingBrush;
+package flyweight.paintingBrush_useThis;
 
 import java.util.HashMap;
 import java.util.Map;

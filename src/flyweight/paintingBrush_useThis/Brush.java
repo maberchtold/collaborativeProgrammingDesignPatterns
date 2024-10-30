@@ -1,4 +1,4 @@
-package flyweight.paintingBrush;
+package flyweight.paintingBrush_useThis;
 
 public class Brush implements Tool{
     private String size;
